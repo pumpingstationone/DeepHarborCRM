@@ -1,0 +1,9 @@
+server: 
+port: 61613
+queuename: "/queue/dh-dispatch"
+# TODO: dispatchkey would eventually be an 
+# environment variable that contains the
+# proper key for the dispatcher to determine
+# whether the change orders it gets are
+# legitimate
+dispatchkey: "wa2dh-todo-crypto-key"
