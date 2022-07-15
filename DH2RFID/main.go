@@ -8,7 +8,7 @@ import (
 	"github.com/go-stomp/stomp/v3"
 )
 
-var serverAddr = flag.String("server", "100.85.181.14:61613", "STOMP server endpoint")
+var serverAddr = flag.String("server", "127.0.0.1:61613", "STOMP server endpoint")
 var queueName = flag.String("queue", "/queue/dh-access", "Destination queue")
 var stop = make(chan bool)
 
